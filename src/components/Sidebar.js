@@ -46,7 +46,7 @@ const Sidebar = () => {
                     <div className='flex justify-between items-center'>
                         <h2 className='text-xl font-medium'>{sidenav}</h2>
                         <RiArrowLeftDoubleFill
-                            className='cursor-pointer'
+                            className='cursor-pointer hover:text-gray-600'
                             size={25}
                             onClick={handleCloseSidenav}
                         />
